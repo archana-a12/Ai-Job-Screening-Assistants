@@ -1,0 +1,30 @@
+# AI Job Screening Assistant
+
+## Overview
+This project provides an AI-powered job screening assistant that:
+- Summarizes job descriptions.
+- Extracts key details from CVs.
+- Matches candidates based on relevance.
+- Shortlists candidates above a threshold.
+- Sends automated interview requests.
+
+## Tech Stack
+- Python
+- SQLite
+- NLP Libraries (Spacy, NLTK, Transformers)
+- Multimodule agent system
+
+## Getting Started
+1. Clone the repo
+2. Run pip install -r requirements.txt
+3. Add your job descriptions and CVs to /data
+4. Run scripts in /src step by step or use the pipeline script (if added)
+
+## Folder Descriptions
+- data/ – Contains sample inputs.
+- src/ – Core logic and modules.
+- models/ – Saved ML models (if applicable).
+- database/ – SQLite database schema.
+
+## Authors
+- [Your Name]

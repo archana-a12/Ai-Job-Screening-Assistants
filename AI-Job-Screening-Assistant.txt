@@ -1,0 +1,26 @@
+AI-Job-Screening-Assistant/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+│
+├── data/
+│   ├── sample_CVs/
+│   └── job_descriptions/
+│
+├── src/
+│   ├── jd_summarizer.py              # Summarizes Job Descriptions
+│   ├── cv_parser.py                  # Extracts relevant data from CVs
+│   ├── matcher.py                    # Calculates match score
+│   ├── shortlister.py                # Shortlists candidates
+│   ├── scheduler.py                  # Sends interview requests
+│   └── utils.py                      # Common utility functions
+│
+├── models/
+│   └── saved_models/                 # ML/NLP models (if any)
+│
+├── database/
+│   └── schema.sql                    # SQLite schema for long-term memory
+│
+└── notebooks/
+    └── exploratory_analysis.ipynb    # For testing and exploration
